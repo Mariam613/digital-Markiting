@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    background-color:$primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.5rem;
+    position: fixed;
+    z-index: 1000;
+    &__logo{
+        width: 15%;
+
+            &__icon{
+               width: 100%;
+               font-size: 7.6rem;
+            }    
+            
+    
+    }
+}
+@media (max-width:768px){
+    .header{
+    height: 25vh;
+    }
+}
+@media (max-width:415px){
+    .header{
+        height: 20vh;
+        }
+}

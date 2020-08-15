@@ -1,0 +1,26 @@
+.cover{
+    background-image: url('../images/cover.jpg');
+    background-size: cover;
+    display: flex;
+    height: 60rem;
+    &__head{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        &__content1{
+            color: $secondary-color;
+            font-size: 2rem;
+        }
+        &__content2{
+            text-align: center;
+            color: #ffffff;
+            font-size: 6.8rem;
+        }
+
+    }
+    
+   
+}

@@ -1,0 +1,39 @@
+// Abstract
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+//Vendors
+
+//Base
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+//Layout
+@import 'layout/__navigation';
+@import 'layout/__header';
+@import 'layout/_cover';
+@import 'layout/_article';
+@import 'layout/_marketing';
+@import 'layout/__projects';
+
+
+//component
+@import 'components/__dropdown';
+@import 'components/__buttons';
+@import 'components/__wave';
+@import 'components/separator';
+@import 'components/cards';
+@import 'components/slider';
+@import 'components/tabs';
+@import 'components/_item';
+@import 'components/counter';
+@import 'components/cardimage';
+@import 'components/icon';
+@import 'components/_brandsMedia';
+@import 'components/_brands';
+
+
+//Pages
+@import 'pages/index.scss'
+//Themes

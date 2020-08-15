@@ -1,0 +1,106 @@
+.cards__items{
+    display: flex;
+    padding: 0 3.5rem;
+    margin-bottom: 4.5rem;
+}
+.last{
+    margin-bottom: 15rem;
+}
+
+.client{
+
+    .slider {
+        width: 50%;
+    }
+    display: flex;
+    padding: 10rem 1.95rem 20rem;
+    background-color: $secondary-color;
+    &__leftside{
+        width: 50%;
+        span,p{
+            color: $darkpurble-color;
+            font-size: 2rem;
+
+        }
+        h2{
+            color: $primary-color;
+            font-size: 4.6rem;
+            font-weight: 700;
+            margin: 1.5rem 0 5.5rem;
+        }
+        p{
+            line-height: 1.8;
+
+        }
+    }
+}
+
+.gallery{
+    display: flex;
+    padding: 0 3.5rem;
+
+  .item{
+    margin: 0 10px 20px;
+  }
+}
+
+.sectionintellegent{
+    margin-top: 5rem;
+    .intellegent{
+        display: flex;
+        justify-content: space-around;
+    }
+h2{
+margin-bottom: 5rem;
+text-align: center;
+    color:$primary-color;
+    font-size: 4.6rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+}
+
+.cardcontainer{
+    display: flex;
+    padding: 0 3.5rem;
+    .cardimage{
+        margin: 0 10px 20px;
+    }
+}
+
+.contacts{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.brands{
+    margin: 0 0 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:768px){
+    .cards__items{
+        display: block;
+
+    }
+}
+@media (max-width:415px){
+    .cards__items{
+        display: block;
+
+    }
+
+
+}
+@media (max-width:768px){
+    .cardcontainer{
+        display: block;
+
+    }
+}
+@media (max-width:415px){
+    .cardcontainer{
+        display: block;
+
+    }
+}

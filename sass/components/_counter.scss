@@ -1,0 +1,14 @@
+.counter{
+    text-align: center;
+    &__num{
+        color: #ff4745;
+        font-weight: 700;
+        font-size: 7.2rem
+    }
+    &__content{
+        font-size: 1.8rem;
+    color: rgba(22,12,109,.81);
+    font-weight: 500;
+    
+    }
+}

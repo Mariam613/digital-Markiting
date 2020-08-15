@@ -1,0 +1,63 @@
+.btn {
+  
+  text-decoration: none;
+  
+  &--primary {
+    color: #fff;
+    background-color: $secondary-color;
+    font-size: 1.5rem;
+    padding: 1.5rem 6rem;
+  }
+
+  &--rounded {
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+  }
+
+  &--secondary{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;    
+
+  }
+
+  &--red{
+    background-color: #ff4745;
+    color: $primary-color;
+  }
+
+}
+button{
+  display: none;
+  position: absolute;
+  right: 50px;
+  color: white;
+  background: none;
+    padding: 5px;
+    border: none;
+    font-size: xx-large;
+}
+@media (max-width:768px){
+  .btn{
+    display: none;
+  }
+}
+@media (max-width:415px){
+  .btn{
+      display: none;
+  }
+}
+
+@media (max-width:768px){
+  button{
+    display: block;
+  }
+}
+@media (max-width:415px){
+  .btn{
+      display: block;
+  }
+}

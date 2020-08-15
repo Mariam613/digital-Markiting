@@ -1,0 +1,23 @@
+.projects{
+   height: 25rem;
+    display: flex;
+    justify-content: center;
+ position: relative;
+ margin-bottom: 35px;
+&__items{
+    width: 50%;
+    position: absolute;
+    top:-114px;
+ 
+    background-color: white;
+}
+    .tabs{
+        z-index: 1;
+        position: absolute;
+        bottom: 45px;
+        position: absolute;
+
+        
+    }
+
+}   

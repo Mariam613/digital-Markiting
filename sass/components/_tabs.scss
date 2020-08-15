@@ -1,0 +1,29 @@
+.tabs{
+    &__content{
+        
+        background-color: white;
+        color: $primary-color;
+    
+        &__items{
+            
+            display: inline-block;
+            font-weight: 600;
+            padding: 0 15px 12px;
+            font-size: 1.6rem;
+            border-bottom: 5px solid rgba(0,0,0,.22);
+            transition: all .5s ease-in-out;
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -ms-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            &:hover{
+                color: #FF4745;
+    border-bottom-color: #FF4745;
+            }
+}
+    }
+}
+.active{
+    color: #FF4745;
+    border-bottom-color: #FF4745;
+}
